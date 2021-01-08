@@ -589,11 +589,15 @@
 	}
 }
 
-@media screen and (max-width: 374.5px) {
+@media screen and (max-width: 412.5px) {
 	.section-heading {
 		padding: 0;
 	}
 
+	.client-profile img{
+		position: relative;
+		left: 1px;
+	}
 	.companies img {
 		width: 170px;
 	}
