@@ -44,10 +44,11 @@ router.get('/blog', (req, res) => {
   res.render('blog')
 })
 
-
-
-
-
+//@desc Success Page
+//@route Get /success
+router.get('/success', (req, res) => {
+  res.render('success')
+})
 
 
 module.exports = router

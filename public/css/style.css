@@ -103,6 +103,40 @@ body {
 	line-height: 1.125;
 }
 
+.success-background {
+	text-align: center;
+	padding: 40px 0;
+	background: #EBF0F5;
+	height: 100%;
+}
+.success-background h1 {
+		color: green;
+		font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+		font-weight: 900;
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.success-background p {
+		color: #404F5E;
+		font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+		font-size:20px;
+		margin: 0;
+	}
+	.success-background i {
+	color: green;
+	font-size: 100px;
+	line-height: 200px;
+	margin-left:-15px;
+}
+.success-background .card {
+	background: white;
+	padding: 60px;
+	border-radius: 4px;
+	box-shadow: 0 2px 3px #C8D0D8;
+	display: inline-block;
+	margin: 0 auto;
+}
+
 /* ------------- # Menu Section ------------- */
 
 .menu-header {
@@ -1814,6 +1848,13 @@ a.comment-date {
 	border-bottom: 1px solid #000;
 }
 
+.return{
+	margin-top: 20px;
+	color: #000;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
 /* ------------- # Sidebar Area ------------- */
 h2.sidebar-widget-title {
 	font-size: 18px;
@@ -2027,7 +2068,9 @@ section.contact-area {
 
 .contact-form-area form input[type='text'],
 .contact-form-area form input[type='email'],
+.contact-form-area form input[type='tel'],
 .contact-form-area form textarea {
+	font-weight: bold;
 	width: 100%;
 	padding: 15px 20px;
 	border: none;
@@ -2051,6 +2094,10 @@ section.contact-area {
 	border: none;
 }
 
+.send-button{
+	color: #000;
+	font-size: 15px;
+}
 /* ##################### 10. faq.html ##################### */
 
 .faq-box {
@@ -2115,6 +2162,8 @@ section.contact-area {
 }
 
 .card-body {
+	font-size: 18x;
+	font-weight: bold;
 	color: #000;
 }
 
