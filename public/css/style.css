@@ -106,33 +106,33 @@ body {
 .success-background {
 	text-align: center;
 	padding: 40px 0;
-	background: #EBF0F5;
+	background: #ebf0f5;
 	height: 100%;
 }
 .success-background h1 {
-		color: green;
-		font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
-		font-weight: 900;
-		font-size: 40px;
-		margin-bottom: 10px;
-	}
-	.success-background p {
-		color: #404F5E;
-		font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
-		font-size:20px;
-		margin: 0;
-	}
-	.success-background i {
+	color: green;
+	font-family: 'Nunito Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.success-background p {
+	color: #404f5e;
+	font-family: 'Nunito Sans', 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+.success-background i {
 	color: green;
 	font-size: 100px;
 	line-height: 200px;
-	margin-left:-15px;
+	margin-left: -15px;
 }
 .success-background .card {
 	background: white;
 	padding: 60px;
 	border-radius: 4px;
-	box-shadow: 0 2px 3px #C8D0D8;
+	box-shadow: 0 2px 3px #c8d0d8;
 	display: inline-block;
 	margin: 0 auto;
 }
@@ -318,10 +318,10 @@ section.banner {
 }
 
 .banner-text h1 {
-	font-size: 48px;
+	font-size: 45px;
 	font-family: 'Poppins', sans-serif;
 	color: #00ff00;
-	font-weight: 700;
+	font-weight: 650;
 	line-height: 1.333;
 	text-align: left;
 	margin: 0;
@@ -333,7 +333,7 @@ section.banner {
 	color: #fff;
 	line-height: 1.545;
 	text-align: left;
-	margin: 54px 0 51px 0;
+	margin: 0px 0 51px 0;
 }
 
 .banner-image img {
@@ -615,7 +615,7 @@ section.speciality-area {
 	font-family: 'Rubik', sans-serif;
 	color: #fff;
 	line-height: 1.938;
-	Fstick: hidden;
+	fstick: hidden;
 	display: flex;
 }
 
@@ -1117,18 +1117,6 @@ section.home-02-banner .bottom-arrow svg {
 
 section.home-02-banner .banner-text h1 {
 	color: #fff;
-}
-
-section.home-02-banner .banner-image {
-	position: relative;
-	width: fit-content;
-	width: -moz-fit-content;
-	width: -ms-fit-content;
-	width: -webkit-fit-content;
-}
-
-section.home-02-banner .banner-text p {
-	color: #dedede;
 }
 
 /* video player */
@@ -1848,7 +1836,7 @@ a.comment-date {
 	border-bottom: 1px solid #000;
 }
 
-.return{
+.return {
 	margin-top: 20px;
 	color: #000;
 	font-size: 30px;
@@ -2094,10 +2082,39 @@ section.contact-area {
 	border: none;
 }
 
-.send-button{
+.send-button {
 	color: #000;
 	font-size: 15px;
 }
+
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 50px;
+	right: 60px;
+	background-color: #25d366;
+	color: #000;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+.float i {
+	font-size: 30px;
+}
+.whatsapp {
+	font-size: 20px;
+	position: relative;
+	top: 20px;
+	right: 12px;
+	color: #00ff00;
+}
+
+.my-float {
+	margin-top: 16px;
+}
+
 /* ##################### 10. faq.html ##################### */
 
 .faq-box {
