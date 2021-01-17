@@ -65,7 +65,7 @@ async function main() {
     secure: false, // true for 465, false for other ports
     auth: {
       user: 'info@digitalprimegh.com', // generated ethereal user
-      pass: 'Prime0246', // generated ethereal password
+      pass: 'XXXXX', // generated ethereal password
     },
     tls:{
       rejectUnauthorized:false
